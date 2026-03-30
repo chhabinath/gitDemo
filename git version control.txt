@@ -1,0 +1,24 @@
+local version control
+centralized version control  
+Distributed Version control
+
+difference between git and GitHub
+
+| Feature       | Git 🧠             | GitHub 🌐          |
+| ------------- | ------------------ | ------------------ |
+| Type          | Tool / Software    | Platform / Service |
+| Usage         | Track code changes | Host & share code  |
+| Internet      | Not required       | Required           |
+| Collaboration | Limited (local)    | Strong (teams)     |
+| Installed?    | Yes                | No (browser-based) |
+
+
+pwd-- present working directory
+
+ls-- list all the files and folders
+
+mkdir <folder name>-- make directory
+
+cd  -- change directory
+
+touch -- file name
