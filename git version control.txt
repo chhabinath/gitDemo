@@ -13,6 +13,8 @@ difference between git and GitHub
 | Installed?    | Yes                | No (browser-based) |
 
 
+Linux commands
+
 pwd-- present working directory
 
 ls-- list all the files and folders
@@ -22,3 +24,9 @@ mkdir <folder name>-- make directory
 cd  -- change directory
 
 touch -- file name
+
+
+git commands
+
+
+
