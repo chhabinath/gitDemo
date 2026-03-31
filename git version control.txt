@@ -124,6 +124,11 @@ git diff -> can see the changes on a file
 
 git rm -f <file name> to force remove
 
+git mv <filename> <new file name> --- use to rename file
+
+
+git clone 
+
 
 
 
