@@ -27,7 +27,7 @@ touch -- file name
 
 
 ctrl + O to save
-file name
+edit file name
 ctrl + s to exit
 
 cat <file name> to see the text basically reading a file data
@@ -114,9 +114,27 @@ git config --global user.email "your.email@example.com"
 
 git config --list
 
+git commit -a -m "added new git commands"  add and commit at the same time
+
 git commit -a
 
 git commit -m "commit message"
+
+git diff -> can see the changes on a file
+
+
+
+
+
+
+
+
+
+how we can move back to the previous commit??
+how to handle merge conflict?
+what is git tags?
+
+
 
 
 
