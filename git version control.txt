@@ -26,6 +26,28 @@ cd  -- change directory
 touch -- file name
 
 
+ctrl + O to save
+file name
+ctrl + s to exit
+
+cat <file name> to see the text basically reading a file data
+
+cp - to copy file 
+
+cp <file name> <new file name>
+
+mv <filename> <another location>
+
+rm <filename> remove file
+
+history - see the last 200 
+
+rmdir to remove the empty folder
+
+
+
+
+
 git help
 
 $ git help
@@ -75,6 +97,26 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
+
+
+
+git commands
+
+git init
+
+git add <file name>
+
+git add .
+
+git config --global user.name "Your Name"
+
+git config --global user.email "your.email@example.com"
+
+git config --list
+
+git commit -a
+
+git commit -m "commit message"
 
 
 
