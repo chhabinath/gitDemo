@@ -195,7 +195,6 @@ git branch <branch name>: to create new branch
 
 git checkout: to change branch
 
-
 git merge <branch name>
 
 git branch -d <branch name> to delete the branch
@@ -225,12 +224,6 @@ usage: git remote [-v | --verbose]
    or: git remote set-url --delete <name> <url>
 
     -v, --[no-]verbose    be verbose; must be placed before a subcommand
-
-
-
-
-
-
 
 
 
