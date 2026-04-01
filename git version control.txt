@@ -127,7 +127,93 @@ git rm -f <file name> to force remove
 git mv <filename> <new file name> --- use to rename file
 
 
-git clone 
+git clone <link>
+
+```
+
+BishwajitKumarSahoo@PC MINGW64 ~/OneDrive/Documents/datamites AIE/Version control (master)
+$ git clone https://github.com/chhabinath/gitDemo.git
+Cloning into 'gitDemo'...
+warning: You appear to have cloned an empty repository.
+
+BishwajitKumarSahoo@PC MINGW64 ~/OneDrive/Documents/datamites AIE/Version control (master)
+$ ls
+ file_1.txt   file_2.txt   file_3.txt  'git version control.txt'   gitDemo/   gitNotes.txt   NewFile/
+
+BishwajitKumarSahoo@PC MINGW64 ~/OneDrive/Documents/datamites AIE/Version control (master)
+$ git push https://github.com/chhabinath/gitDemo.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/chhabinath/gitDemo.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+BishwajitKumarSahoo@PC MINGW64 ~/OneDrive/Documents/datamites AIE/Version control (master)
+$ git remote add origin https://github.com/chhabinath/gitDemo.git
+
+BishwajitKumarSahoo@PC MINGW64 ~/OneDrive/Documents/datamites AIE/Version control (master)
+$ git branch -M main
+git push -u origin main
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (31/31), 3.99 KiB | 371.00 KiB/s, done.
+Total 31 (delta 15), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/chhabinath/gitDemo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+BishwajitKumarSahoo@PC MINGW64 ~/OneDrive/Documents/datamites AIE/Version control (main)
+$ history
+    1  ls
+    2  cd 'C:\Users\BISWAJIT KUMAR SAHOO\OneDrive\Documents\datamites AIE'
+    3  cd 'Version control'
+    4  ls
+    5  clear
+    6  git clone https://github.com/chhabinath/gitDemo.git
+    7  ls
+    8  git push https://github.com/chhabinath/gitDemo.git
+    9  git remote add origin https://github.com/chhabinath/gitDemo.git
+   10  git branch -M main
+   11  git push -u origin main
+   12  history
+
+````
+
+
+git branches
+----------------
+
+git branch: see the current branch
+
+git branch <branch name>: to create new branch
+
+git checkout: to change branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
