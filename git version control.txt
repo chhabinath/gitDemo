@@ -204,6 +204,20 @@ git checkout: to change branch
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 how we can move back to the previous commit??
 how to handle merge conflict?
 what is git tags?
